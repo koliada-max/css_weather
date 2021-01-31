@@ -1,0 +1,149 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    min-height: 100vh;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.outer-wrapper {
+    font-family: "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    border: 15px solid #2b81ac;
+    background-color: #3499cc;
+    color: #ffffff;
+}
+
+.weather-container {
+    max-width: 950px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.container .col {
+    height: 200px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.container .col:first-child {
+    width: 50%;
+}
+
+.col.blue {
+    background-color: #3498db;
+    align-items: center;
+}
+
+.col.aqua {
+    background-color: #17bc9c;
+    align-items: center;
+    width: 25%;
+}
+
+.col.purple {
+    background-color: #c55a99;
+    align-items: center;
+    width: 25%;
+}
+
+.col.red {
+    background-color: #e74c3c;
+    align-items: center;
+    width: 25%;
+}
+
+.col.orange {
+    background-color: #e67e22;
+    align-items: center;
+    width: 25%;
+}
+
+.col.yellow {
+    background-color: #f1c411;
+    align-items: center;
+    width: 25%;
+}
+
+.col.lightgreen {
+    background-color: #2bcc71;
+    align-items: center;
+    width: 25%;
+}
+
+.col.gray {
+    background-color: #95a5a6;
+    align-items: center;
+    width: 25%;
+}
+
+.col.rose {
+    background-color: #c55a99;
+    align-items: center;
+    width: 50%;
+}
+
+.col.green {
+    background-color: #3658db;
+    align-items: center;
+    width: 25%;
+}
+
+.col.fuchsia {
+    background-color: #9b59b6;
+    align-items: center;
+    width: 100%;
+}
+
+.container:hover .col {
+    opacity: 0.8;
+    transition: all .2s ease-in;
+}
+
+.container .col:hover {
+    opacity: 1;
+    transition: all .2s ease-in;
+}
+
+.header,
+.footer {
+    font-size: x-large;
+    display: block;
+    margin: 25px 0 25px 0;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+.header {
+    font-size: xx-large;
+}
